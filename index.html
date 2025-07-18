@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            background-color: red;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 81px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Score: <span id="result"></span></h3>
+    <div class="container">
+        <!-- <img src="./img/blank.png"  alt=""> -->
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
